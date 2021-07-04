@@ -1,4 +1,4 @@
-name: docs-environment
+name: paramak
 
 channels:
   - conda-forge
@@ -10,15 +10,14 @@ dependencies:
   - scipy
   - numpy
   - matplotlib
-  - Pillow
+  - pillow
   - cadquery=2.1
-  - openmc
   - moab
+  - neutronics-material-maker
+  - remove_dagmc_tags
+  - plasmaboundaries
   - pip:
-    - neutronics-material-maker
-    - remove_dagmc_tags
     - sympy
-    - plasmaboundaries
     - sphinx-autodoc-typehints
     - sphinxcadquery
     - defusedxml

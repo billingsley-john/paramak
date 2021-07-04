@@ -18,21 +18,4 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    tests_require=[
-        "pytest-cov",
-        "pytest-runner",
-        "nbformat",
-        "nbconvert",
-    ],
-    install_requires=[
-        "pytest-cov",
-        "plotly",
-        "scipy",
-        "sympy",
-        "numpy",
-        "tqdm",
-        "matplotlib",
-        "plasmaboundaries",
-        "remove_dagmc_tags",
-        "jupyter-cadquery",
-    ])
+)
